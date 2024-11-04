@@ -1,6 +1,6 @@
-# Section 1: Building a Basic Node.js Server with Routing and Request Handling
+# Project 1: Building a Basic Node.js Server with Routing and Request Handling
 
-## Concepts Covered
+## Section 1: Understanding the Basics
 
 In this section, I covered a range of foundational Node.js concepts:
 
