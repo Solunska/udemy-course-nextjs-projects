@@ -1,6 +1,6 @@
 # Node.js Course Projects
 
-Welcome to the documentation for the Node.js course projects. In this repository, you'll find a variety of projects that cover core Node.js concepts, hands-on exercises, and practical implementations. Each folder corresponds to a different section of the course, providing insight into key aspects of Node.js development and offering real-world application experience.
+Welcome to the Node.js course projects! In this repo, you'll find a single project that builds up different sections of the course. I’ve divided it into separate folders to keep things organized for better learning progress. Each folder focuses on a core concept of Node.js, providing hands-on exercises and practical examples along the way.
 
 ## Project List:
 
