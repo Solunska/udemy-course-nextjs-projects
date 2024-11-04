@@ -1,8 +1,7 @@
 # Project 1: Building a Basic Node.js Server with Routing and Request Handling
+This project introduces foundational Node.js concepts, including creating a server, understanding the Node.js lifecycle and event loop, handling requests and responses, and implementing basic routing. It also covers managing request headers, parsing request bodies, event-driven code execution, and differentiating between blocking and non-blocking code.
 
-## Section 1: Understanding the Basics
-
-In this section, I covered a range of foundational Node.js concepts:
+### Key Concepts Covered
 
 ### 1. Creating a Node.js Server
 - **Using the `http` Module** to create a basic server using the `http` module to handle incoming requests.
