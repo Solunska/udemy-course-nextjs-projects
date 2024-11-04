@@ -7,12 +7,18 @@ const rootDir = require('./util/path');
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const expressHbs = require('express-handlebars');
 
 const app = express();
 
 // setting global configuration items
-// we are telling express that we want to compile dynamic templates with the pug engine and where to find these templates
-app.set('view engine', 'pug');
+// we are telling express that we want to compile dynamic templates with the handlebars engine and where to find these templates
+app.engine('hbs', expressHbs({
+    layoutsDir: 'views/layouts/',
+    defaultLayout: 'main-layout',
+    extname: 'hbs'
+}));
+app.set('view engine', 'hbs');
 app.set('views', 'views'); // this is already set automatically because root/views is the default 
 
 app.use(bodyParser.urlencoded({ extended: false }));

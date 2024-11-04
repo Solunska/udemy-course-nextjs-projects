@@ -8,7 +8,12 @@ const products = [];
 
 // /admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
-    res.render('add-product', {docTitle: 'Add Product', path: '/admin/add-product'})
+    res.render('add-product', {
+        docTitle: 'Add Product',
+        path: '/admin/add-product',
+        activeProduct: true,
+        productCSS: true
+    })
 });
 
 // app.get() and app.post() are the same as app.use(), but for get and post
