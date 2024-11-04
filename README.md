@@ -9,4 +9,4 @@ Welcome to the documentation for the Node.js course projects. In this repository
    - **Folder:** [`Node.js Basics`](./01.%20Node.js%20Basics)
 1. **Section 2: Working with Express.js**
    - **Overview:** 
-   - **Browse repository at this point:** [`Node.js Basics`](https://github.com/Solunska/udemy-course-nodejs-projects/tree8e459e95799cbadf6efd0f7690ac2619371c26fe/02.%20Working%20with%20Express.js)
+   - **Browse repository at this point:** [`Node.js Basics`](https://github.com/Solunska/udemy-course-nodejs-projects/tree/8e459e95799cbadf6efd0f7690ac2619371c26fe/02.%20Working%20with%20Express.js)
